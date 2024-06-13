@@ -1,7 +1,7 @@
 
 <template>
   <div class="container">
-    <h1>Fitx - Fatx</h1>
+    <img src="./components/icons/ff.png" width="300px" align="right"   >
     <div class="play-area">
       <div id="block_0" class="block" @click="draw(0, false)">{{ content[0] }}</div>
       <div id="block_1" class="block" @click="draw(1, false)">{{ content[1] }}</div>
@@ -148,7 +148,7 @@
     justify-content: center;
     font-size: 3rem;
     font-weight: bold;
-    border: 3px solid black;
+    border: 3px solid rgb(8, 8, 8);
     transition: background 0.2s ease-in-out;
   }
   .block:hover {

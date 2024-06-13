@@ -107,6 +107,7 @@
       })
     }
   }
+
 </script>
 
 <style>
@@ -217,4 +218,5 @@
       font-size: 1.3rem;
     }
   }
+
 </style>

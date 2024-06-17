@@ -111,7 +111,7 @@
 </script>
 
 <style>
-@import './style.css';
+@import './style.css'; 
   * {
     margin: 0;
     padding: 0;
@@ -149,7 +149,7 @@
     justify-content: center;
     font-size: 3rem;
     font-weight: bold;
-    border: 3px solid rgb(8, 8, 8);
+    border: 2px solid rgb(8, 8, 8);
     transition: background 0.2s ease-in-out;
   }
   .block:hover {

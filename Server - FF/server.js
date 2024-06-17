@@ -6,7 +6,7 @@ const io = require('socket.io')(server, {
     }
 });
 io.on('connection', (socket)=> {
-    socket.timeout(5000).emit("hello", "Server Online");
+    socket.emit("hello", "Server Online");
     // receber o evento e enviar para os outros jogadores
     socket.on("play", index => {
         console.log("server received", index)
